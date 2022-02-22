@@ -58,7 +58,9 @@ export default function App() {
           <Weather weather={weatherData[0]} />
         </>
       ) : (
-        <p>Loading...</p>
+        // 
+        <>
+        <Weather weather={weatherData['Mumbai']}/></>
       )}
       <Footer />
     </div>
